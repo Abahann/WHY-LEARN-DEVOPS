@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title> Why learn Devops</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/svg+xml" href="favicon/favicon.svg">
+<link rel="icon" type="image/png" href="favicon\favicon.png">
+<meta name="keyword" content="Devops, learn devops, engineering">
+<meta name="description" content="Tech articles about Devops">
+<script src="js.app.js"></script>
+</head>
+<body>
+    <div id="header-wrapper">
+    <div id="header">
+        <div id="logo-search-container">
+       <img id="logo-img" src="https://www.bing.com/th?id=OIP.pTsJOYAi7t13_U7LczIHnAHaEK&w=200&h=150&c=8&rs=1&o=6&pid=5.1" alt="">
+      <input type="text" placeholder="Search..."> 
+    </div>
+       <button onclick="handleCreatePost ()">Create Post</button> 
+    </div>
+</div>
+
+<div id="post-form-container">
+    <form>
+        <label for="title"><b>Title</b></label>
+        <input type="text" name="title" placeholder="Enter Title" />
+        <label><b>Description</b></label>
+        <input type="text" placeholder="Description" />
+        <label><b>Post</b></label>
+        <textarea placeholder="Your post..."></textarea>
+        <button id="hide-btn" onclick="hidePostForm()">Hide form</button>
+        <button id="save-btn">Save form</button>
+    </form>
+
+</div>
+
+    <div id="main-section-container">
+        <div id="article-section">
+            <img id="article-cover" src="../Ann.jpeg" alt="Ann">
+        <div>
+      <h1>Article title</h1> 
+      <h3>Short Information on Article</h3> 
+     <p class="article-info"><i>Written BY:Abah Oyiminu Ann</i></p>
+      <p class="article-info"><i>Date:27/12/2022</i></p>
+        </div>
+
+        <div>
+       <p>Paragraph 1</p>
+       <p>Paragraph 2</p>
+
+       <h4>Selection Header</h4> 
+      <p>Paragraph 1</p> 
+       <ul>
+     <li>Item 1</li>   
+      <li>Item 2</li>  
+       <li>Item 3</li> 
+      <li>Item 4</li>  
+    </ul>
+    </div>
+    </div>
+
+    <div id="side-section">
+    <div>
+      <h2>Side Selection</h2> 
+       <h3>Another article title</h3> 
+      <h4>Another article short Info</h4> 
+       <a href="https://start.atlassian.com/">Click to view article</a>
+    </div>
+
+    <div>
+        <h2>Also side Selection</h2> 
+         <h3>Article title</h3> 
+        <h4>Short description</h4> 
+         <a href="https://techworld-with-nana.teachable.com/p/devops-bootcamp">Click to view article</a>
+      </div>
+    </div>
+    </div>
+
+  <div id="footer">
+    <p>This is the footer</p>
+  </div>
+ </body>
+</html>
